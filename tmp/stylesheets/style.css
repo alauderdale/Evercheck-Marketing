@@ -1,0 +1,1044 @@
+@import url(lib/fancybox/jquery.fancybox.css);
+@import url(lib/font-awesome.css);
+@import url(lib/bootstrap.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+/* line 2, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_extends.scss */
+section.inverse-section h1, section.case-study h1, section.offer-section h1, section.inverse-section h2, section.case-study h2, section.offer-section h2, section.inverse-section h3, section.case-study h3, section.offer-section h3, section.inverse-section h4, section.case-study h4, section.offer-section h4, section.inverse-section h5, section.case-study h5, section.offer-section h5, section.inverse-section h6, section.case-study h6, section.offer-section h6, section.inverse-section p, section.case-study p, section.offer-section p, section.inverse-section small, section.case-study small, section.offer-section small, section.inverse-section li, section.case-study li, section.offer-section li {
+  color: white !important; }
+
+/* line 1, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 10, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+body {
+  font: 100%;
+  font-size: 12pt;
+  color: #444444;
+  -webkit-font-smoothing: antialiased;
+  /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
+  width: 100%;
+  line-height: 1.5em;
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  zoom: 1;
+  font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
+  background-color: white;
+  padding-top: 88px; }
+
+/* line 27, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+.main {
+  background-color: white; }
+
+/* line 34, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+/* line 42, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+* html .clearfix {
+  zoom: 1; }
+
+/* IE6 */
+/* line 43, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+*:first-child + html .clearfix {
+  zoom: 1; }
+
+/* IE7 */
+/* line 47, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+img {
+  height: auto; }
+
+/* line 53, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+.bg-cover {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 63, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+.base-line-height {
+  line-height: 28px; }
+
+/* line 67, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+.small-line-height {
+  line-height: 18px; }
+
+/* line 71, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+.full-width {
+  width: 100%; }
+
+/* line 75, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+.max-width {
+  max-width: 100%; }
+
+/* line 79, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+.display-block {
+  display: block; }
+
+/* line 83, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+.inline-block {
+  display: inline-block; }
+
+/* line 87, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+.inline {
+  display: inline; }
+
+/* line 92, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+.border-top {
+  border-top: 1px solid #dddddd; }
+
+/* line 95, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+.border-right {
+  border-right: 1px solid #dddddd; }
+
+/* line 98, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+.border-bottom {
+  border-bottom: 1px solid #dddddd; }
+
+/* line 101, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_base.scss */
+.border-left {
+  border-left: 1px solid #dddddd; }
+
+@font-face {
+  font-family: 'socialicoregular';
+  src: url("../font/socialico-webfont.eot");
+  src: url("../font/socialico-webfont.eot?#iefix") format("embedded-opentype"), url("../font/socialico-webfont.woff") format("woff"), url("../font/socialico-webfont.ttf") format("truetype"), url("../font/socialico-webfont.svg#socialicoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sanslight_italic';
+  src: url("../font/opensans-lightitalic-webfont.eot");
+  src: url("../font/opensans-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/opensans-lightitalic-webfont.woff2") format("woff2"), url("../font/opensans-lightitalic-webfont.woff") format("woff"), url("../font/opensans-lightitalic-webfont.ttf") format("truetype"), url("../font/opensans-lightitalic-webfont.svg#open_sanslight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansitalic';
+  src: url("../font/opensans-italic-webfont.eot");
+  src: url("../font/opensans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/opensans-italic-webfont.woff2") format("woff2"), url("../font/opensans-italic-webfont.woff") format("woff"), url("../font/opensans-italic-webfont.ttf") format("truetype"), url("../font/opensans-italic-webfont.svg#open_sansitalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansextrabold_italic';
+  src: url("../font/opensans-extrabolditalic-webfont.eot");
+  src: url("../font/opensans-extrabolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/opensans-extrabolditalic-webfont.woff2") format("woff2"), url("../font/opensans-extrabolditalic-webfont.woff") format("woff"), url("../font/opensans-extrabolditalic-webfont.ttf") format("truetype"), url("../font/opensans-extrabolditalic-webfont.svg#open_sansextrabold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansbold';
+  src: url("../font/opensans-bold-webfont.eot");
+  src: url("../font/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/opensans-bold-webfont.woff2") format("woff2"), url("../font/opensans-bold-webfont.woff") format("woff"), url("../font/opensans-bold-webfont.ttf") format("truetype"), url("../font/opensans-bold-webfont.svg#open_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sanssemibold_italic';
+  src: url("../font/opensans-semibolditalic-webfont.eot");
+  src: url("../font/opensans-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/opensans-semibolditalic-webfont.woff2") format("woff2"), url("../font/opensans-semibolditalic-webfont.woff") format("woff"), url("../font/opensans-semibolditalic-webfont.ttf") format("truetype"), url("../font/opensans-semibolditalic-webfont.svg#open_sanssemibold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url("../font/opensans-semibold-webfont.eot");
+  src: url("../font/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/opensans-semibold-webfont.woff2") format("woff2"), url("../font/opensans-semibold-webfont.woff") format("woff"), url("../font/opensans-semibold-webfont.ttf") format("truetype"), url("../font/opensans-semibold-webfont.svg#open_sanssemibold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../font/opensans-regular-webfont.eot");
+  src: url("../font/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/opensans-regular-webfont.woff2") format("woff2"), url("../font/opensans-regular-webfont.woff") format("woff"), url("../font/opensans-regular-webfont.ttf") format("truetype"), url("../font/opensans-regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sanslight';
+  src: url("../font/opensans-light-webfont.eot");
+  src: url("../font/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("../font/opensans-light-webfont.woff2") format("woff2"), url("../font/opensans-light-webfont.woff") format("woff"), url("../font/opensans-light-webfont.ttf") format("truetype"), url("../font/opensans-light-webfont.svg#open_sanslight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansbold_italic';
+  src: url("../font/opensans-bolditalic-webfont.eot");
+  src: url("../font/opensans-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/opensans-bolditalic-webfont.woff2") format("woff2"), url("../font/opensans-bolditalic-webfont.woff") format("woff"), url("../font/opensans-bolditalic-webfont.ttf") format("truetype"), url("../font/opensans-bolditalic-webfont.svg#open_sansbold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansextrabold';
+  src: url("../font/opensans-extrabold-webfont.eot");
+  src: url("../font/opensans-extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/opensans-extrabold-webfont.woff2") format("woff2"), url("../font/opensans-extrabold-webfont.woff") format("woff"), url("../font/opensans-extrabold-webfont.ttf") format("truetype"), url("../font/opensans-extrabold-webfont.svg#open_sansextrabold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'brandon_grotesquebold';
+  src: url("../font/brandon_bld-webfont.eot");
+  src: url("../font/brandon_bld-webfont.eot?#iefix") format("embedded-opentype"), url("../font/brandon_bld-webfont.woff2") format("woff2"), url("../font/brandon_bld-webfont.woff") format("woff"), url("../font/brandon_bld-webfont.ttf") format("truetype"), url("../font/brandon_bld-webfont.svg#brandon_grotesquebold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'brandon_grotesqueRgIt';
+  src: url("../font/brandon_reg_it-webfont.eot");
+  src: url("../font/brandon_reg_it-webfont.eot?#iefix") format("embedded-opentype"), url("../font/brandon_reg_it-webfont.woff2") format("woff2"), url("../font/brandon_reg_it-webfont.woff") format("woff"), url("../font/brandon_reg_it-webfont.ttf") format("truetype"), url("../font/brandon_reg_it-webfont.svg#brandon_grotesqueRgIt") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 200, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.text-columns-2 {
+  -webkit-columns: 28px 2;
+  -moz-columns: 28px 2;
+  columns: 28px 2; }
+
+/* line 203, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.text-columns-3 {
+  -webkit-columns: 28px 3;
+  -moz-columns: 28px 3;
+  columns: 28px 3; }
+
+/* line 206, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.text-columns-4 {
+  -webkit-columns: 28px 4;
+  -moz-columns: 28px 4;
+  columns: 28px 4; }
+
+/* line 210, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.text-uppercase {
+  text-transform: uppercase; }
+
+/* line 214, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.text-color {
+  color: #444444; }
+
+/* line 218, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.dark-text-color {
+  color: #444444; }
+
+/* line 222, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.text-success {
+  color: #85c342; }
+
+/* line 226, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.text-warning {
+  color: #f0ad4e; }
+
+/* line 230, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.link-color {
+  color: #0084b4; }
+
+/* line 237, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.light-font-name {
+  font-family: "open_sanslight", Helvetica, Arial, sans-serif; }
+
+/* line 240, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.regular-font-name {
+  font-family: "open_sansregular", Helvetica, Arial, sans-serif; }
+
+/* line 243, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.medium-font-name {
+  font-family: "open_sanssemibold", Helvetica, Arial, sans-serif; }
+
+/* line 246, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.bold-font-name {
+  font-family: "open_sansbold", Helvetica, Arial, sans-serif !important; }
+
+/* line 249, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.extra-bold-font-name {
+  font-family: "open_sansextrabold", Helvetica, Arial, sans-serif; }
+
+/* line 253, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.social-font-name {
+  font-family: "socialicoregular"; }
+
+/* line 257, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.flourish-font-name-italic {
+  font-family: "brandon_grotesqueRgIt"; }
+
+/* line 265, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.primary-text-color {
+  color: #ff6600 !important; }
+  /* line 267, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+  .primary-text-color p {
+    color: #ff6600 !important; }
+
+/* line 272, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.secondary-text-color {
+  color: #0084b4 !important; }
+  /* line 274, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+  .secondary-text-color p {
+    color: #0084b4 !important; }
+
+/* line 281, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.micro-text {
+  font-size: .7em; }
+
+/* line 290, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit; }
+
+/* line 293, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  margin-bottom: 14px; }
+
+/* line 299, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+p {
+  font-size: 1em;
+  margin-bottom: .8em; }
+
+/* line 303, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+h1 {
+  font-size: 3.7em;
+  margin-bottom: 28px;
+  font-family: "open_sansregular", Helvetica, Arial, sans-serif; }
+
+/* line 308, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+h2 {
+  font-size: 2.3em;
+  margin-bottom: 28px; }
+
+/* line 312, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+h3 {
+  font-size: 1.8em; }
+
+/* line 315, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+h4 {
+  font-size: 1em; }
+
+/* line 318, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+h5 {
+  font-size: 0.9em;
+  font-family: "open_sansbold", Helvetica, Arial, sans-serif; }
+
+/* line 322, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+h6 {
+  font-size: 0.7em;
+  text-transform: uppercase; }
+
+/* line 328, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+p {
+  color: #666666;
+  line-height: 1.8em;
+  margin-bottom: 14px; }
+  /* line 332, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+  p.lead {
+    line-height: 1.7em; }
+
+/* line 338, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.signature {
+  font-family: "open_sanslight", Helvetica, Arial, sans-serif;
+  font-size: .8em; }
+
+/* line 345, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+.line-through {
+  text-decoration: line-through; }
+
+/* line 356, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+ul.list-default {
+  font-size: .8em;
+  margin-bottom: 28px;
+  margin-left: 28px; }
+
+/* line 365, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+ul.fa-ul li {
+  margin-bottom: 14px;
+  color: black;
+  font-size: .8em; }
+  /* line 369, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+  ul.fa-ul li i {
+    color: #ff6600; }
+
+/* line 376, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+ul.list-icons li {
+  margin-right: 28px;
+  text-transform: uppercase; }
+  /* line 379, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+  ul.list-icons li img {
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    opacity: .8; }
+    /* line 382, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+    ul.list-icons li img:hover {
+      opacity: 1; }
+  /* line 386, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+  ul.list-icons li h5 {
+    line-height: 1.5em; }
+  /* line 389, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+  ul.list-icons li:last-of-type {
+    margin-right: 0; }
+  @media (max-width: 992px) {
+    /* line 376, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_typography.scss */
+    ul.list-icons li {
+      margin-right: 14px; } }
+
+/* line 1, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_links_buttons.scss */
+a {
+  color: #0084b4;
+  text-decoration: none; }
+  /* line 4, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_links_buttons.scss */
+  a:hover, a:active, a:focus {
+    text-decoration: none; }
+  /* line 7, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_links_buttons.scss */
+  a:hover {
+    color: #00425a; }
+  /* line 10, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_links_buttons.scss */
+  a.flourish-link {
+    font-family: "brandon_grotesqueRgIt";
+    font-style: italic;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #0084b4; }
+    /* line 15, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_links_buttons.scss */
+    a.flourish-link:hover {
+      border-color: #00425a; }
+  /* line 19, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_links_buttons.scss */
+  a.underline-link {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #0084b4; }
+
+/* line 25, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_links_buttons.scss */
+.btn {
+  border-radius: 3px; }
+  /* line 27, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_links_buttons.scss */
+  .btn.btn-primary {
+    background-color: #0084b4;
+    border: #0084b4; }
+
+/* line 2, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.margin-auto {
+  margin: 0 auto; }
+
+/* line 5, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.margin {
+  margin: 28px !important; }
+
+/* line 8, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.margin-top {
+  margin-top: 28px !important; }
+
+/* line 11, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.margin-right {
+  margin-right: 28px !important; }
+
+/* line 14, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.margin-bottom {
+  margin-bottom: 28px !important; }
+
+/* line 17, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.margin-left {
+  margin-left: 28px !important; }
+
+/* line 20, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-margin-top {
+  margin-top: 56px !important; }
+
+/* line 23, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-margin-right {
+  margin-right: 56px !important; }
+
+/* line 26, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-margin-bottom {
+  margin-bottom: 56px !important; }
+
+/* line 29, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-margin-left {
+  margin-left: 56px !important; }
+
+/* line 32, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-margin-top {
+  margin-top: 84px !important; }
+
+/* line 35, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-margin-right {
+  margin-right: 84px !important; }
+
+/* line 38, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-margin-bottom {
+  margin-bottom: 84px !important; }
+
+/* line 41, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-margin-left {
+  margin-left: 84px !important; }
+
+/* line 44, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-margin-top {
+  margin-top: 14px !important; }
+
+/* line 47, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-margin-right {
+  margin-right: 14px !important; }
+
+/* line 50, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-margin-bottom {
+  margin-bottom: 14px !important; }
+
+/* line 53, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-margin-left {
+  margin-left: 14px !important; }
+
+/* line 56, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-margin-top {
+  margin-top: 7px !important; }
+
+/* line 59, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-margin-right {
+  margin-right: 7px !important; }
+
+/* line 62, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-margin-bottom {
+  margin-bottom: 7px !important; }
+
+/* line 65, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-margin-left {
+  margin-left: 7px !important; }
+
+/* line 68, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-margin {
+  margin: 0px !important; }
+
+/* line 71, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-margin-top {
+  margin-top: 0px !important; }
+
+/* line 74, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-margin-right {
+  margin-right: 0px !important; }
+
+/* line 77, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-margin-bottom {
+  margin-bottom: 0px !important; }
+
+/* line 80, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-margin-left {
+  margin-left: 0px !important; }
+
+/* line 83, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.large-margin-top {
+  margin-top: 84px !important; }
+
+/* line 88, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.padded {
+  padding: 28px !important; }
+
+/* line 91, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.padding-top {
+  padding-top: 28px !important; }
+
+/* line 94, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.padding-right {
+  padding-right: 28px !important; }
+
+/* line 97, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.padding-bottom {
+  padding-bottom: 28px !important; }
+
+/* line 100, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.padding-left {
+  padding-left: 28px !important; }
+
+/* line 103, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-padded {
+  padding: 56px !important; }
+
+/* line 106, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-padding-top {
+  padding-top: 56px !important; }
+
+/* line 109, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-padding-right {
+  padding-right: 56px !important; }
+
+/* line 112, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-padding-bottom {
+  padding-bottom: 56px !important; }
+
+/* line 115, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.double-padding-left {
+  padding-left: 56px !important; }
+
+/* line 118, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-padding-top {
+  padding-top: 84px !important; }
+
+/* line 121, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-padding-right {
+  padding-right: 84px !important; }
+
+/* line 124, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-padding-bottom {
+  padding-bottom: 84px !important; }
+
+/* line 127, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.triple-padding-left {
+  padding-left: 84px !important; }
+
+/* line 130, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-padding {
+  padding: 0px !important; }
+
+/* line 133, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-padding-top {
+  padding-top: 0px !important; }
+
+/* line 136, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-padding-right {
+  padding-right: 0px !important; }
+
+/* line 139, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-padding-bottom {
+  padding-bottom: 0px !important; }
+
+/* line 142, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.no-padding-left {
+  padding-left: 0px !important; }
+
+/* line 145, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-padding {
+  padding: 14px !important; }
+
+/* line 148, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-padding-top {
+  padding-top: 14px !important; }
+
+/* line 151, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-padding-right {
+  padding-right: 14px !important; }
+
+/* line 154, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-padding-bottom {
+  padding-bottom: 14px !important; }
+
+/* line 157, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.half-padding-left {
+  padding-left: 14px !important; }
+
+/* line 160, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-padding {
+  padding: 7px !important; }
+
+/* line 163, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-padding-top {
+  padding-top: 7px !important; }
+
+/* line 166, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-padding-right {
+  padding-right: 7px !important; }
+
+/* line 169, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-padding-bottom {
+  padding-bottom: 7px !important; }
+
+/* line 172, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_margin_padding_helpers.scss */
+.quarter-padding-left {
+  padding-left: 7px !important; }
+
+/* line 2, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+section {
+  padding: 84px 0; }
+  /* line 4, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+  section.page-header-section {
+    background-size: cover;
+    padding: 56px 0; }
+    /* line 7, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+    section.page-header-section h1 {
+      text-shadow: 0 1px 13px rgba(0, 0, 0, 0.3); }
+  /* line 11, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+  section.off-white-bg {
+    background: #fafafa;
+    border-bottom: 1px solid #eeeeee;
+    border-top: 1px solid #eeeeee; }
+  /* line 17, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+  section.inverse-section {
+    background-color: #ff6600; }
+    /* line 20, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+    section.inverse-section a {
+      color: white;
+      border-color: white; }
+  /* line 25, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+  section.founder-section {
+    background: url(../images/company/headshot.png) right bottom no-repeat; }
+    @media (max-width: 767px) {
+      /* line 27, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+      section.founder-section .text-container {
+        background: rgba(255, 102, 0, 0.8);
+        text-align: center;
+        padding: 14px; }
+        /* line 29, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+        section.founder-section .text-container h1, section.founder-section .text-container h2, section.founder-section .text-container h3, section.founder-section .text-container h4, section.founder-section .text-container h5, section.founder-section .text-container h6, section.founder-section .text-container p, section.founder-section .text-container small, section.founder-section .text-container li {
+          color: white !important; } }
+    @media (max-width: 992px) {
+      /* line 25, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+      section.founder-section {
+        background: url(../images/company/headshot.png) 340px bottom no-repeat; } }
+    @media (max-width: 767px) {
+      /* line 25, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+      section.founder-section {
+        background: url(../images/company/headshot.png) center bottom no-repeat; } }
+  /* line 45, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+  section.apart-section {
+    background: url(../images/company/apart_bg.png) no-repeat right bottom;
+    background-size: cover; }
+  /* line 50, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+  section.icons-section h5 {
+    color: #ff6600; }
+  /* line 53, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+  section.icons-section .item {
+    padding: 28px 14px;
+    cursor: default;
+    -webkit-transition: linear all 0.2s;
+    -moz-transition: linear all 0.2s;
+    -ms-transition: linear all 0.2s;
+    -o-transition: linear all 0.2s;
+    transition: linear all 0.2s;
+    position: relative; }
+    /* line 58, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+    section.icons-section .item:hover {
+      box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 3px; }
+  /* line 64, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+  section.case-study {
+    text-align: center;
+    background-color: #001a23; }
+    /* line 68, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_sections.scss */
+    section.case-study h2 {
+      color: #ff6600 !important; }
+
+/* line 2, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_tables.scss */
+#company_tabs ul.nav-tabs {
+  display: table;
+  text-align: center;
+  background: transparent;
+  margin: 0 auto;
+  border: none; }
+  /* line 8, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_tables.scss */
+  #company_tabs ul.nav-tabs li {
+    padding: 14px 0 28px 0;
+    text-align: center;
+    display: table-cell;
+    margin-right: 20px; }
+    @media (max-width: 767px) {
+      /* line 14, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_tables.scss */
+      #company_tabs ul.nav-tabs li.active {
+        background: none !important; } }
+    /* line 18, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_tables.scss */
+    #company_tabs ul.nav-tabs li:last-of-type {
+      margin-right: 0; }
+    /* line 21, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_tables.scss */
+    #company_tabs ul.nav-tabs li a {
+      display: block;
+      width: 100px;
+      height: 100px;
+      border-radius: 200px;
+      border: 1px solid white;
+      opacity: .5;
+      text-align: center; }
+      @media (max-width: 992px) {
+        /* line 21, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_tables.scss */
+        #company_tabs ul.nav-tabs li a {
+          width: 70px;
+          height: 70px; } }
+      @media (max-width: 767px) {
+        /* line 21, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_tables.scss */
+        #company_tabs ul.nav-tabs li a {
+          border: none;
+          width: 30px;
+          height: 30px; } }
+      /* line 38, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_tables.scss */
+      #company_tabs ul.nav-tabs li a img {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 28px;
+        max-width: 30px; }
+        @media (max-width: 992px) {
+          /* line 38, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_tables.scss */
+          #company_tabs ul.nav-tabs li a img {
+            margin-top: 10px; } }
+    /* line 50, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_tables.scss */
+    #company_tabs ul.nav-tabs li:hover a, #company_tabs ul.nav-tabs li:active a, #company_tabs ul.nav-tabs li:focus a {
+      background: none;
+      border-color: #ff6600;
+      opacity: 1;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -ms-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s; }
+    /* line 57, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_tables.scss */
+    #company_tabs ul.nav-tabs li.active {
+      background: url(../images/company/company_tab_active.png) no-repeat bottom center; }
+      /* line 59, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_tables.scss */
+      #company_tabs ul.nav-tabs li.active a {
+        border-color: #ff6600;
+        opacity: 1;
+        background: none; }
+/* line 67, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_tables.scss */
+#company_tabs .tab-pane {
+  padding-top: 56px;
+  min-height: 200px; }
+  /* line 70, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_tables.scss */
+  #company_tabs .tab-pane h5 {
+    color: #ff6600 !important; }
+  @media (max-width: 767px) {
+    /* line 67, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_tables.scss */
+    #company_tabs .tab-pane {
+      padding-top: 0; } }
+
+/* line 2, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_slider.scss */
+.slider h1, .slider h2 {
+  color: white; }
+/* line 5, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_slider.scss */
+.slider h1 {
+  font-family: "open_sansbold", Helvetica, Arial, sans-serif;
+  text-transform: uppercase; }
+/* line 9, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_slider.scss */
+.slider h2 {
+  font-family: "open_sanslight", Helvetica, Arial, sans-serif;
+  font-style: italic; }
+
+/* line 1, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_navs.scss */
+section.subnav-container {
+  padding: 7px 0;
+  background: #fafafa;
+  border-bottom: 1px solid #eee;
+  width: 100%; }
+
+/* line 9, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_navs.scss */
+ul.global-subnav li {
+  font-size: .8em; }
+  @media (max-width: 992px) {
+    /* line 9, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_navs.scss */
+    ul.global-subnav li {
+      font-size: .65em; } }
+  @media (max-width: 767px) {
+    /* line 9, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_navs.scss */
+    ul.global-subnav li {
+      font-size: .7em; } }
+  /* line 18, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_navs.scss */
+  ul.global-subnav li.active a {
+    font-family: "open_sansbold", Helvetica, Arial, sans-serif;
+    background: #0084b4;
+    color: white; }
+  /* line 24, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_navs.scss */
+  ul.global-subnav li a {
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    border-radius: 3px; }
+
+@media (max-width: 767px) {
+  /* line 2, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/partials/_images.scss */
+  img.content-img {
+    padding: 14px 0 !important;
+    margin-right: 14px 0 !important; } }
+
+/* line 4, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+a.logo {
+  width: 100px;
+  height: 61px;
+  display: block;
+  background: url(../images/logo.png);
+  background-size: 100% 100%; }
+
+/* line 14, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+header.main-nav-container {
+  position: fixed;
+  top: 0;
+  z-index: 800;
+  display: inline-block;
+  width: 100%;
+  background: white;
+  padding: 14px 0;
+  border-bottom: #dddddd 1px solid; }
+  /* line 23, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+  header.main-nav-container ul.desktop-nav {
+    margin-top: 20px; }
+    /* line 25, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+    header.main-nav-container ul.desktop-nav li {
+      font-size: .9em;
+      margin-left: 28px;
+      font-family: "open_sansregular", Helvetica, Arial, sans-serif; }
+      /* line 29, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+      header.main-nav-container ul.desktop-nav li a {
+        padding-bottom: 3px;
+        color: #7c7c7c;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -ms-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s; }
+        /* line 33, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+        header.main-nav-container ul.desktop-nav li a:hover {
+          color: #ff6600; }
+      /* line 38, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+      header.main-nav-container ul.desktop-nav li.active a {
+        color: #444444; }
+        /* line 40, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+        header.main-nav-container ul.desktop-nav li.active a:hover {
+          color: #ff6600; }
+    @media (max-width: 767px) {
+      /* line 23, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+      header.main-nav-container ul.desktop-nav {
+        display: none; } }
+  /* line 51, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+  header.main-nav-container a.menu-toggle {
+    display: none;
+    margin-top: 20px;
+    color: #7c7c7c; }
+    @media (max-width: 767px) {
+      /* line 51, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+      header.main-nav-container a.menu-toggle {
+        display: block; } }
+
+/* line 67, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+nav.menu-drop {
+  top: 0;
+  right: 0;
+  position: fixed;
+  opacity: 0;
+  z-index: 901;
+  height: 100%;
+  width: 80%;
+  padding: 14px 0;
+  -webkit-transform: translate(127%, 0);
+  -moz-transform: translate(127%, 0);
+  -ms-transform: translate(127%, 0);
+  -o-transform: translate(127%, 0);
+  transform: translate(127%, 0);
+  margin-top: -1px;
+  background: #001a23;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-transition: -webkit-transform 0.5s, opacity 0 0.6s;
+  -moz-transition: -moz-transform 0.5s, opacity 0 0.6s;
+  -o-transition: -o-transform 0.5s, opacity 0 0.6s;
+  transition: transform 0.5s, opacity 0 0.6s;
+  overflow-y: scroll; }
+  /* line 88, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+  nav.menu-drop a.menu-toggle {
+    margin-top: 20px;
+    color: white; }
+  /* line 94, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+  nav.menu-drop ul.mobile-nav-main li {
+    border-bottom: 1px solid black; }
+    /* line 97, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+    nav.menu-drop ul.mobile-nav-main li.active a {
+      color: white; }
+    /* line 102, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+    nav.menu-drop ul.mobile-nav-main li a {
+      margin: 7px 0;
+      padding: 7px 0;
+      padding-left: 28px;
+      color: #7f7f7f;
+      display: block;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -ms-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s; }
+      /* line 109, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+      nav.menu-drop ul.mobile-nav-main li a:hover {
+        color: white; }
+
+/* line 117, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+nav.menu-show {
+  opacity: 1; }
+
+/* line 123, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+.nav-open {
+  overflow: hidden; }
+  /* line 125, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+  .nav-open .menu-drop {
+    opacity: 0;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: -webkit-transform 0.2s, opacity 0;
+    -moz-transition: -moz-transform 0.2s, opacity 0;
+    -o-transition: -o-transform 0.2s, opacity 0;
+    transition: transform 0.2s, opacity 0; }
+    @media (max-width: 767px) {
+      /* line 125, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_header.scss */
+      .nav-open .menu-drop {
+        opacity: 1; } }
+
+/* line 32, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_footer.scss */
+#global-footer {
+  background: #001a23; }
+  @media (max-width: 767px) {
+    /* line 35, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_footer.scss */
+    #global-footer .logo-container p {
+      margin-bottom: 28px !important; } }
+  /* line 41, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_footer.scss */
+  #global-footer h6, #global-footer p {
+    color: rgba(255, 255, 255, 0.5); }
+  /* line 44, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_footer.scss */
+  #global-footer p {
+    font-size: 0.7em; }
+    /* line 46, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_footer.scss */
+    #global-footer p.copyright {
+      left: 16px;
+      position: relative; }
+      @media (max-width: 767px) {
+        /* line 46, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_footer.scss */
+        #global-footer p.copyright {
+          left: 0; } }
+  /* line 54, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_footer.scss */
+  #global-footer ul.footer-main-nav {
+    margin-bottom: 28px; }
+    /* line 56, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_footer.scss */
+    #global-footer ul.footer-main-nav li {
+      font-size: 0.7em; }
+      /* line 58, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_footer.scss */
+      #global-footer ul.footer-main-nav li a {
+        color: white;
+        display: block; }
+        /* line 61, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_footer.scss */
+        #global-footer ul.footer-main-nav li a:hover {
+          color: #ff6600;
+          -webkit-transition-duration: 0.2s;
+          -moz-transition-duration: 0.2s;
+          -ms-transition-duration: 0.2s;
+          -o-transition-duration: 0.2s;
+          transition-duration: 0.2s; }
+
+/* line 1, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_offer.css.scss */
+section.offer-section {
+  padding-bottom: 0;
+  background: #ff6600; }
+  @media (max-width: 767px) {
+    /* line 6, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_offer.css.scss */
+    section.offer-section form .btn {
+      width: 100%; } }
+  @media (max-width: 992px) {
+    /* line 12, /Users/alauderdale/Dropbox/clients/VIAM/Middleman/source/stylesheets/elements/_offer.css.scss */
+    section.offer-section form .form-control {
+      padding: 0px;
+      padding-left: 8px; } }

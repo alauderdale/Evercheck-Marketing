@@ -1,0 +1,36 @@
+%nav.navbar.navbar-default.navbar-fixed-top.global-nav
+	.container-fluid
+		.navbar-header
+			%a.navbar-brand{:href=>"#"}
+				%img{:src=>"../images/logo@2x.png", :width=>"148px"}
+		.hidden-xs
+			.navbar-left
+				%ul.nav.navbar-nav
+					%li
+						%a{:href=>"#"}
+							Solution
+					%li
+						%a{:href=>"#"}
+							Pricing
+					%li
+						%a{:href=>"#"}
+							Contact
+					%li.dropdown
+						%a.dropdown-toggle{:href=>"#", "data-toggle"=>"dropdown"}
+							•••
+						%ul.dropdown-menu
+							%li
+								%a{:href=>"#"}
+									Item
+							%li
+								%a{:href=>"#"}
+									Item
+							%li
+								%a{:href=>"#"}
+									Item
+
+			%form.navbar-form.navbar-right
+				%a.btn.btn-primary{:href=>"#"}
+					Schedule a Demo
+				%a.btn.btn-default{:href=>"#"}
+					Sign In

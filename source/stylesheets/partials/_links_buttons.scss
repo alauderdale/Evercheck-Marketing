@@ -1,0 +1,9 @@
+.btn{
+	border-radius:3px;
+	font-family:$medium-font-name;
+	font-size:1.3rem;
+	&.btn-primary{
+		background: $primary-color;
+		border:$primary-color;
+	}
+}

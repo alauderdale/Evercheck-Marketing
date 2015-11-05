@@ -1,0 +1,28 @@
+//sections
+section{
+  padding:$baseline 0;
+  &.page-header-section{
+    background-size:cover;
+    padding:$baseline*2 0;
+    h1{
+      text-shadow:0 1px 13px rgba(0,0,0,.3);
+    }
+  }
+  &.off-white-bg{
+  	// background:url(../images/off_white_sec_bg.png) repeat-y right;
+    background:#fafafa;
+    border-bottom:1px solid $medium-gray-color;
+    border-top:1px solid $medium-gray-color;
+  }
+  &.inverse-section{
+  	@extend %white_text;
+    background-color:$primary-color;
+    a{
+      color:white;
+      border-color:white;
+    }
+  }
+}
+
+
+
