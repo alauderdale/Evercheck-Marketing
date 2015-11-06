@@ -17,3 +17,11 @@
 //   @include breakpoint(md) {
 //     ...
 //   }
+
+
+  @include breakpoint(sm) {
+    .text-center-sm{
+      text-align: center;
+    }
+  }
+

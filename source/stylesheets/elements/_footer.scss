@@ -1,0 +1,26 @@
+.global-footer{
+	section{
+	padding:$baseline 0;		
+	}
+
+	p{
+		margin-bottom: 10px;
+		&.small{
+			font-size: 1.3rem;
+		}
+	}
+	ul{
+		li{
+			font-size: 1.3rem;
+			line-height: 2.5rem;
+			font-family:$regular-font-name;
+			a{
+				color:$text-color;
+				&:hover{
+					text-decoration:none;
+					color:black;
+				}
+			}
+		}
+	}
+}

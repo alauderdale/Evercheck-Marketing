@@ -37,6 +37,15 @@
 	}
 	//desktop nav
 	.desktop-nav{
+		ul.dropdown-menu{
+			li{
+				a{
+					padding-top:7px!important;
+					padding-bottom:7px!important;	
+					// color:$primary-color!important;	
+				}
+			}
+		}
 		.dropdown:hover .dropdown-menu {
 			display: block;
     	margin-top: 0; // remove the gap so it doesn't close
@@ -55,6 +64,8 @@
   	max-height:100%;
   	ul{
   		li{
+  			font-family: $regular-font-name;
+  			font-size: 1.4rem;
   			&.open{
   				a.dropdown-toggle{
   					display: none;
@@ -64,7 +75,7 @@
   				padding-top:8px!important;
   				padding-bottom:8px!important;
   				&.bold-link{
-  					font-family: $extra-bold-font-name;
+  					font-family: $bold-font-name;
   					color:$primary-color!important;
   				}
   			}
