@@ -3,34 +3,101 @@
 		.navbar-header
 			%a.navbar-brand{:href=>"#"}
 				%img{:src=>"../images/logo@2x.png", :width=>"148px"}
+			.visible-xs
+				.pull-right
+					%button.tcon.tcon-menu--xcross.menu-button{"aria-label" => "toggle menu", :type => "button", "aria-expanded" => "false", "data-target" => "#collapse-menu", "data-toggle" => "collapse"}
+						%span.tcon-menu__lines{"aria-hidden" => "true"}
+						%span.tcon-visuallyhidden 
+							toggle menu
 		.hidden-xs
-			.navbar-left
-				%ul.nav.navbar-nav
-					%li
-						%a{:href=>"#"}
-							Solution
-					%li
-						%a{:href=>"#"}
-							Pricing
-					%li
-						%a{:href=>"#"}
-							Contact
-					%li.dropdown
-						%a.dropdown-toggle{:href=>"#", "data-toggle"=>"dropdown"}
-							•••
-						%ul.dropdown-menu
-							%li
-								%a{:href=>"#"}
-									Item
-							%li
-								%a{:href=>"#"}
-									Item
-							%li
-								%a{:href=>"#"}
-									Item
+			.desktop-nav
+				.navbar-left
+					%ul.nav.navbar-nav
+						%li.dropdown
+							%a.dropdown-toggle{:href=>"google.com"}
+								Solution
+							%ul.dropdown-menu
+								%li
+									%a{:href=>"#"}
+										Overview
+								%li
+									%a{:href=>"#"}
+										Monitoring
+								%li
+									%a{:href=>"#"}
+										Collaborate
+								%li
+									%a{:href=>"#"}
+										Integrate
+								%li
+									%a{:href=>"#"}
+										Manage
+						%li
+							%a{:href=>"#"}
+								Pricing
+						%li
+							%a{:href=>"#"}
+								Contact
+						%li.dropdown
+							%a.dropdown-toggle{:href=>"#", "data-toggle"=>"dropdown"}
+								•••
+							%ul.dropdown-menu
+								%li
+									%a{:href => "#"} 
+										Company
+								%li
+									%a{:href => "#"} 
+										Security
+								%li
+									%a{:href => "#"} 
+										Blog
+								%li
+									%a{:href => "#"} 
+										FAQs
+								%li
+									%a{:href => "#"} 
+										Jobs
 
 			%form.navbar-form.navbar-right
 				%a.btn.btn-primary{:href=>"#"}
 					Schedule a Demo
 				%a.btn.btn-default{:href=>"#"}
 					Sign In
+	.visible-xs
+		#collapse-menu.collapse.navbar-collapse.mobile-nav
+			%ul.nav.navbar-nav
+				%li
+					%a{:href => "#"}
+						Solution
+				%li
+					%a{:href => "#"} 
+						Pricing
+				%li
+					%a{:href => "#"} 
+						Contact
+				%li.dropdown
+					%a.dropdown-toggle{:href=>"#", "data-toggle"=>"dropdown"}
+						•••
+					%ul.dropdown-menu
+						%li
+							%a{:href => "#"} 
+								Company
+						%li
+							%a{:href => "#"} 
+								Security
+						%li
+							%a{:href => "#"} 
+								Blog
+						%li
+							%a{:href => "#"} 
+								FAQs
+						%li
+							%a{:href => "#"} 
+								Jobs
+				%li
+					%a.bold-link{:href => "#"} 
+						Schedule a Demo
+				%li
+					%a.bold-link{:href => "#"} 
+						Sign In
+

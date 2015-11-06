@@ -6,4 +6,8 @@
 		background: $primary-color;
 		border:$primary-color;
 	}
+	&.btn-default{
+		border: $primary-color 1px solid;
+		color:$primary-color;
+	}
 }
