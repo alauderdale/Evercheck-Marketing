@@ -1,7 +1,7 @@
 %nav.navbar.navbar-default.navbar-fixed-top.global-nav
 	.container-fluid
 		.navbar-header
-			%a.navbar-brand{:href=>"#"}
+			%a.navbar-brand{:href=>"/"}
 				%img{:src=>"../images/logo@2x.png", :width=>"148px"}
 			.visible-xs
 				.pull-right
@@ -14,48 +14,48 @@
 				.navbar-left
 					%ul.nav.navbar-nav
 						%li.dropdown
-							%a.dropdown-toggle{:href=>"google.com"}
+							%a.dropdown-toggle{:href=>"/solution"}
 								Solution
 							%ul.dropdown-menu
 								%li
-									%a{:href=>"#"}
+									%a{:href=>"/solution"}
 										Overview
 								%li
-									%a{:href=>"#"}
+									%a{:href=>"/solution/monitoring.html"}
 										Monitoring
 								%li
-									%a{:href=>"#"}
+									%a{:href=>"/solution/collaborate"}
 										Collaborate
 								%li
-									%a{:href=>"#"}
+									%a{:href=>"/solution/integrate"}
 										Integrate
 								%li
-									%a{:href=>"#"}
+									%a{:href=>"/solution/manage"}
 										Manage
 						%li
-							%a{:href=>"#"}
+							%a{:href=>"/pricing"}
 								Pricing
 						%li
-							%a{:href=>"#"}
+							%a{:href=>"/contact"}
 								Contact
 						%li.dropdown
-							%a.dropdown-toggle{:href=>"#", "data-toggle"=>"dropdown"}
+							%a.dropdown-toggle{:href=>"/company", "data-toggle"=>"dropdown"}
 								•••
 							%ul.dropdown-menu
 								%li
-									%a{:href => "#"} 
+									%a{:href => "/company"} 
 										Company
 								%li
-									%a{:href => "#"} 
+									%a{:href => "/security"} 
 										Security
 								%li
-									%a{:href => "#"} 
+									%a{:href => "/blog"} 
 										Blog
 								%li
-									%a{:href => "#"} 
+									%a{:href => "/faqs"} 
 										FAQs
 								%li
-									%a{:href => "#"} 
+									%a{:href => "/jobs"} 
 										Jobs
 
 			%form.navbar-form.navbar-right
