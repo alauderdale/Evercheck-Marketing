@@ -9,5 +9,8 @@ table{
 		td.info{
 			background:tint($primary-color,90%)!important;
 		}
+		p{
+			font-family: $regular-font-name;
+		}
 	}
 }
