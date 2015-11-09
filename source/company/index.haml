@@ -1,0 +1,78 @@
+;;;
+"title": "Company"
+;;;
+
+%section
+	.container
+		.row
+			.col-lg-12
+				%img.img-responsive.margin-auto.margin-bottom{:src=>"../images/illustration_company@2x.png", :width=>"753px"}
+		.row
+			.col-md-3.col-sm-2
+			.col-md-6.col-sm-8
+				%h2.text-center
+					This Is Our Story
+				%p
+					EverCheck is the result of recognizing a unique set of challenges healthcare organizations face every day and offering a solution that works. CE Broker, Florida’s official healthcare continuing education tracking system and EverCheck’s [parent company], began providing license verification services in 2005. Since then, we’ve grown to XX number of employees who service more than 200+ hospitals nationwide. And we’re just getting started. 
+			.col-md-3.col-sm-2
+%section
+	.container
+		.row
+			.col-md-3.col-sm-2
+			.col-md-6.col-sm-8
+				%h2.text-center
+					Core Values
+				=partial"values-slider"
+			.col-md-3.col-sm-2
+
+%section.white-bg
+	.container
+		.row
+			.col-md-3.col-sm-2
+			.col-md-6.col-sm-8
+				%h4.margin-bottom.text-center
+					Our sustainability promise
+				%blockquote
+					%p
+						“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet"
+					%footer
+						\- Brian Solano, CEO
+			.col-md-3.col-sm-2
+%section
+	.container
+		.row
+			.col-md-3.col-sm-2
+			.col-md-6.col-sm-8
+				%h2.text-center
+					Meet the team
+				%p
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a.
+			.col-md-3.col-sm-2
+%section
+	.container
+		-10.times do
+			.row.double-margin-bottom
+				.col-md-2.col-sm-1
+				.col-md-4.col-sm-5.col-md-push-4.col-sm-push-5
+					%img.img-responsive.margin-auto.margin-top.img-circle{:src=>"../images/avatar@2x.jpg", :width=>"200px"}
+				.col-md-4.col-sm-5.col-md-pull-4.col-sm-pull-5
+					.double-margin-top
+						%h4.bold-font-name
+							John Doe
+							%span.light-font-name
+								Founder and CEO
+						%p.small
+							Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.
+%section.white-bg
+	.container
+		.row
+			.col-md-3.col-sm-2
+			.col-md-6.col-sm-8
+				.text-center
+					%h2.margin-bottom
+						Sound like the kind of philosophy you can get behind? Take a look at our open positions. 
+					%a.btn.btn-lg.btn-default
+						View Open Positions
+
+			.col-md-3.col-sm-2
+=partial"shared/offer"

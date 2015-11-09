@@ -1,0 +1,25 @@
+#company_tabs{:role => "tabpanel"}
+  / Nav tabs
+  %ul.nav.nav-tabs.margin-top{:role => "tablist"}
+    %li.active{:role => "presentation"}
+      %a{"aria-controls" => "tabone", "data-toggle" => "tab", :href => "#tabone", :role => "tab"} 
+        %img.img-responsive{:src=>"/images/values_icon.png"}
+    %li{:role => "presentation"}
+      %a{"aria-controls" => "tabtwo", "data-toggle" => "tab", :href => "#tabtwo", :role => "tab"} 
+        %img.img-responsive{:src=>"/images/values_icon.png"}
+
+   
+  / Tab panes
+  .row
+    .col-sm-12
+      .tab-content.margin-top
+        #tabone.tab-pane.fade.in.active{:role => "tabpanel"} 
+          %h4
+            Honesty
+          %p.small
+            Wherever you work or play, you can count on VIAM to fill in your ‘communications gaps’ with reliable, affordable, best-in-class telecommunications with all the capacity and coverage you need. If you’re in a region that’s lags behind in connectivity,
+        #tabtwo.tab-pane.fade{:role => "tabpanel"} 
+          %h4
+            Honesty
+          %p.small
+            Wherever you work or play, you can count on VIAM to fill in your ‘communications gaps’ with reliable, affordable, best-in-class telecommunications with all the capacity and coverage you need. If you’re in a region that’s lags behind in connectivity,
