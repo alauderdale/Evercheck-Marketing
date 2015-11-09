@@ -29,11 +29,16 @@
 				padding-right:25px;
 				padding-left:25px;
 				color:$text-color!important;
+				@include transition-duration(.1s);
 			  &:hover{
-					color:black!important;
+					color:$primary-color!important;
+					background:none;
 				}
 			}
 		}
+	}
+	ul.dropdown-menu{
+		transform:translate(-50%, 0);
 	}
 	//desktop nav
 	.desktop-nav{

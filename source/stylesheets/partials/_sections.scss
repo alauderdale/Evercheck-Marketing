@@ -9,7 +9,6 @@ section{
     }
   }
   &.white-bg{
-  	// background:url(../images/off_white_sec_bg.png) repeat-y right;
     background:#fff;
     border-bottom:1px solid $medium-gray-color;
     border-top:1px solid $medium-gray-color;
@@ -24,5 +23,17 @@ section{
   }
 }
 
-
+.off-white-section-group{
+  section{
+    &.white-bg{
+      border:none;
+      &:first-of-type{
+        border-top:1px solid $medium-gray-color;
+      }
+      &:last-of-type{
+        border-bottom:1px solid $medium-gray-color;
+      }
+    }
+  }
+}
 
