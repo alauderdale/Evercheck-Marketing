@@ -1,12 +1,25 @@
 #company_tabs{:role => "tabpanel"}
   / Nav tabs
-  %ul.nav.nav-tabs.margin-top{:role => "tablist"}
-    %li.active{:role => "presentation"}
-      %a{"aria-controls" => "tabone", "data-toggle" => "tab", :href => "#tabone", :role => "tab"} 
-        %img.img-responsive{:src=>"/images/values_icon.png"}
-    %li{:role => "presentation"}
-      %a{"aria-controls" => "tabtwo", "data-toggle" => "tab", :href => "#tabtwo", :role => "tab"} 
-        %img.img-responsive{:src=>"/images/values_icon.png"}
+  .tab-table
+    %ul.nav.nav-tabs.margin-top{:role => "tablist"}
+      %li.active{:role => "presentation"}
+        %a{"aria-controls" => "tabone", "data-toggle" => "tab", :href => "#tabone", :role => "tab"} 
+          %img.img-responsive{:src=>"/images/core_balanced@2x.png", :width=>"45px"}
+      %li{:role => "presentation"}
+        %a{"aria-controls" => "tabtwo", "data-toggle" => "tab", :href => "#tabtwo", :role => "tab"} 
+          %img.img-responsive{:src=>"/images/core_change@2x.png", :width=>"45px"}
+      %li{:role => "presentation"}
+        %a{"aria-controls" => "tabthree", "data-toggle" => "tab", :href => "#tabthree", :role => "tab"} 
+          %img.img-responsive{:src=>"/images/core_design@2x.png", :width=>"45px"}
+      %li{:role => "presentation"}
+        %a{"aria-controls" => "tabfour", "data-toggle" => "tab", :href => "#tabfour", :role => "tab"} 
+          %img.img-responsive{:src=>"/images/core_green@2x.png", :width=>"45px"}
+      %li{:role => "presentation"}
+        %a{"aria-controls" => "tabfive", "data-toggle" => "tab", :href => "#tabfive", :role => "tab"} 
+          %img.img-responsive{:src=>"/images/core_service@2x.png", :width=>"45px"}
+      %li{:role => "presentation"}
+        %a{"aria-controls" => "tabsix", "data-toggle" => "tab", :href => "#tabsix", :role => "tab"} 
+          %img.img-responsive{:src=>"/images/core_brain@2x.png", :width=>"45px"}
 
    
   / Tab panes
@@ -14,12 +27,33 @@
     .col-sm-12
       .tab-content.margin-top
         #tabone.tab-pane.fade.in.active{:role => "tabpanel"} 
-          %h4
-            Honesty
+          %h5
+            Live Balanced
           %p.small
-            Wherever you work or play, you can count on VIAM to fill in your ‘communications gaps’ with reliable, affordable, best-in-class telecommunications with all the capacity and coverage you need. If you’re in a region that’s lags behind in connectivity,
+            Meaningful work is one just aspect of a well-balanced life. At EverCheck, we encourage our team to place highest importance on the the things that matter most - family, friends, health. 
         #tabtwo.tab-pane.fade{:role => "tabpanel"} 
-          %h4
-            Honesty
+          %h5
+            Embrace & Drive Change 
           %p.small
-            Wherever you work or play, you can count on VIAM to fill in your ‘communications gaps’ with reliable, affordable, best-in-class telecommunications with all the capacity and coverage you need. If you’re in a region that’s lags behind in connectivity,
+            “That’s the way it’s always been done!”
+            \-No innovative company, ever. 
+        #tabthree.tab-pane.fade{:role => "tabpanel"} 
+          %h5
+            Good Design is Good Business 
+          %p.small
+            Attention to detail matters to us, and we take pride in delivering superior products. (User experience at the forefront.) 
+        #tabfour.tab-pane.fade{:role => "tabpanel"} 
+          %h5
+            “Wow” Customer Service  
+          %p.small
+            Ever felt like just another customer in a queue? At EverCheck, our clients are not a number, but a resource. We value input, and we’ll do whatever necessary to deliver superior service, every time. 
+        #tabfive.tab-pane.fade{:role => "tabpanel"} 
+          %h5
+            Think Green
+          %p.small
+            We walk the green walk and talk the green talk. You’ll never see us printing excessively, using harsh chemicals in our facilities, or producing unsustainable promo items. Many of us even walk or bike to work. Money, meet mouth. 
+        #tabsix.tab-pane.fade{:role => "tabpanel"} 
+          %h5
+            Pursue Growth and Learning 
+          %p.small
+            We choose to friend-zone our comfort zone, because stepping outside of your comfort zone is so much more rewarding. 

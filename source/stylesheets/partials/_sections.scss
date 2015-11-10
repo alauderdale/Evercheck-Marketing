@@ -1,6 +1,9 @@
 //sections
 section{
   padding:$baseline*2 0;
+  &.next-up{
+    background-color: tint($secondary-color,95%);
+  }
   &.page-header-section{
     background-size:cover;
     padding:$baseline*2 0;
