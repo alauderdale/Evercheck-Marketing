@@ -2,7 +2,9 @@
 section{
   padding:$baseline*2 0;
   &.next-up{
-    background-color: tint($secondary-color,95%);
+    .thumbnail{
+      width:50%;
+    }
   }
   &.page-header-section{
     background-size:cover;
