@@ -2,9 +2,11 @@
 section{
   padding:$baseline*2 0;
   &.next-up{
-    .thumbnail{
-      width:50%;
-    }
+    // @include breakpoint(sm) {
+    //   .pull-left{
+    //     float: none!important;
+    //   }
+    // }
   }
   &.page-header-section{
     background-size:cover;

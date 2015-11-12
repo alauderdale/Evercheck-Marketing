@@ -3,6 +3,18 @@ a{
 	&:hover{
 		color:shade($primary-color,20%);
 	}
+	&.next-up{
+		i{
+			position: relative;
+			@include transition-duration(.3s);
+		}
+		&:hover{
+			text-decoration: none;
+			i{
+				margin-left: 10px;
+			}
+		}
+	}
 }
 
 .btn{

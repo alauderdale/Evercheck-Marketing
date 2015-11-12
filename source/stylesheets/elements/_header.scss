@@ -17,16 +17,17 @@
 		}
 		&:hover{
 			img{
-				width:160px;
+				width:155px;
 			}
 		}
 	}
 	ul.navbar-nav, ul.dropdown-menu{
 		li{
+
 			font-size: 1.2rem;
 			font-family: $medium-font-name;
 			a{
-				padding-right:25px;
+				padding-right:24px;
 				padding-left:25px;
 				color:$text-color!important;
 				@include transition-duration(.1s);
@@ -40,6 +41,7 @@
 	//desktop nav
 	.desktop-nav{
 		ul.dropdown-menu{
+			border-color:#e7e7e7;
 			li{
 				a{
 					padding-top:7px!important;
@@ -48,8 +50,18 @@
 				}
 			}
 		}
-		.dropdown:hover .dropdown-menu {
+		.dropdown .dropdown-menu{
 			display: block;
+			opacity: 0;
+			visibility: hidden;
+			transform:translate3d(0, 0, 0);
+			@include transition(all 200ms ease);
+		}
+		.dropdown:hover .dropdown-menu {
+		display: block;
+		transform:translate3d(0, -5px, 0);
+		opacity: 1;
+		visibility: visible;
     	margin-top: 0; // remove the gap so it doesn't close
     }
   }

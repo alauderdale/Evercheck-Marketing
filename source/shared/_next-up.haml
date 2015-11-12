@@ -1,10 +1,19 @@
-%section.next-up
-	%a.thumbnail.pull-right{:href=>"#"}
-		.padded
-			%h5
-				Next Up
-			%h3
-				Integrate
-				%small
-					%i.fa.fa-chevron-right
-	.clearfix
+%section.next-up.no-padding-top
+	.container
+		.row
+			.col-sm-3
+			.col-sm-6
+				.row
+					.col-sm-6.col-xs-4
+						.pull-right
+							%img.img-responsive.text-right{:src=>"../images/up_next_line@2x.png"}
+					.col-sm-6.col-xs-8
+						%a.next-up.pull-left{:href=>"#{url}"}
+							%h5.no-margin-bottom
+								Next Up
+							%h3
+								= title
+								%small
+									%i.fa.fa-chevron-right.primary-text-color
+						.clearfix
+			.col-sm-3
