@@ -1,8 +1,8 @@
 %nav.navbar.navbar-default.navbar-fixed-top.global-nav
 	.container-fluid
 		.navbar-header
-			%a.navbar-brand{:href=>"/"}
-				%img{:src=>"../images/logo@2x.png", :width=>"148px"}
+			%a.navbar-brand{:href=>"/blog"}
+				%img{:src=>"../images/blog/logo_blog@2x.png", :width=>"148px",:style=>"top:3px; position:relative;"}
 			.visible-xs
 				.pull-right
 					%button.tcon.tcon-menu--xcross.menu-button{"aria-label" => "toggle menu", :type => "button", "aria-expanded" => "false", "data-target" => "#collapse-menu", "data-toggle" => "collapse"}
@@ -11,93 +11,59 @@
 							toggle menu
 		.hidden-xs
 			.desktop-nav
-				.navbar-left
+				%form.navbar-form.navbar-right
+					%a.btn.btn-primary{:href=>"/"}
+						Visit Evercheck.com
+				.navbar-right
 					%ul.nav.navbar-nav
 						%li.dropdown
-							%a.dropdown-toggle{:href=>"/solution"}
-								Solution
+							%a.dropdown-toggle{:href=>"#"}
+								Topics
 							%ul.dropdown-menu
 								%li
 									%a{:href=>"/solution"}
-										Overview
+										Topic
 								%li
 									%a{:href=>"/solution/monitoring"}
-										Monitoring
+										Topic
 								%li
 									%a{:href=>"/solution/collaborate"}
-										Collaborate
+										Topic
 								%li
 									%a{:href=>"/solution/integrate"}
-										Integrate
+										Topic
 								%li
 									%a{:href=>"/solution/manage"}
-										Manage
+										Topic
 						%li
 							%a{:href=>"/pricing"}
-								Pricing
-						%li
-							%a{:href=>"/contact"}
-								Contact
-						%li.dropdown
-							%a.dropdown-toggle{:href=>"/company"}
-								•••
-							%ul.dropdown-menu
-								%li
-									%a{:href => "/company"} 
-										Company
-								%li
-									%a{:href => "/security"} 
-										Security
-								%li
-									%a{:href => "/blog"} 
-										Blog
-								%li
-									%a{:href=>"/pricing#faqs"}
-										FAQs
-								%li
-									%a{:href => "/jobs"} 
-										Jobs
-
-			%form.navbar-form.navbar-right
-				%a.btn.btn-primary{:href=>"/demo"}
-					Schedule a Demo
-				%a.btn.btn-default{:href=>"#"}
-					Sign In
+								Sign In
 	.visible-xs
 		#collapse-menu.collapse.navbar-collapse.mobile-nav
 			%ul.nav.navbar-nav
-				%li
-					%a{:href => "/solution"}
-						Solution
-				%li
-					%a{:href => "/pricing"} 
-						Pricing
-				%li
-					%a{:href => "/contact"} 
-						Contact
 				%li.dropdown
 					%a.dropdown-toggle{:href=>"#", "data-toggle"=>"dropdown"}
-						•••
+						Topics 
 					%ul.dropdown-menu
 						%li
 							%a{:href => "/company"} 
-								Company
+								Topic
 						%li
 							%a{:href => "/security"} 
-								Security
+								Topic
 						%li
 							%a{:href => "/blog"} 
-								Blog
+								Topic
 						%li
 							%a{:href=>"/pricing#faqs"}
-								FAQs
+								Topic
 						%li
 							%a{:href => "/jobs"} 
-								Jobs
+								Topic
 				%li
 					%a.bold-link{:href => "/demo"} 
-						Schedule a Demo
-				%li
-					%a.bold-link{:href => "#"} 
 						Sign In
+				%li
+					%a.bold-link{:href => "/"} 
+						To Evercheck.com
 

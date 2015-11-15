@@ -2,6 +2,7 @@ a{
 	color:$primary-color;
 	&:hover{
 		color:shade($primary-color,20%);
+		text-decoration:none;
 	}
 	&.next-up{
 		i{

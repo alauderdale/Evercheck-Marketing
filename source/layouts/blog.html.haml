@@ -3,10 +3,15 @@
   %head
     = partial "shared/scripts"
     %body{:class => page_classes}
-      = partial "layouts/header"
+      = partial "layouts/header_blog"
       /end menu
-      .main
-        = yield
+      .main.blog-main
+        %section
+          .container
+            .col-sm-2
+            .col-sm-8
+              = yield
+            .col-sm-8
       /end main content
       = partial "layouts/footer"
       = javascript_include_tag"lib/menu_button.js"

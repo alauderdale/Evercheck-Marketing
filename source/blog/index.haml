@@ -1,0 +1,25 @@
+;;;
+"title": "Blog",
+"layout": "blog"
+;;;
+
+:css
+	body{
+		background-color:white;
+	}
+
+
+-10.times do
+	=partial"/blog/post_thumb"
+
+
+%nav
+	%ul.pager
+		%li.previous.regular-font-name
+			%a{:href => "#"}
+				%span.icon{"aria-hidden" => "true"} &larr;
+				Older Posts
+		%li.next.regular-font-name
+			%a{:href => "#"}
+				Newer Posts
+				%span.icon{"aria-hidden" => "true"} &rarr;

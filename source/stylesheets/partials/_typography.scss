@@ -219,6 +219,10 @@
   color:$dark-text-color;
 }
 
+.light-text-color{
+  color:$light-text-color;
+}
+
 .text-success{
   color:$green-color;
 }
@@ -364,5 +368,17 @@ blockquote{
 
 //lists
 
+ul{
+  margin-left: 24px;
+  li{
+    line-height: 3.3rem;
+  }
+  @include breakpoint(md) {
+    li{
+      font-size: .8em;
+      line-height: 2.3rem;
+    }
+  }
+}
 
 
