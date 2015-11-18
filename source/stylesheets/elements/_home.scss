@@ -12,6 +12,10 @@
 		position: relative;
 	}
 
+	#home-gear-container{
+		  @include animation-duration(1s);
+   @include animation-delay(.4s);
+	}
 
 	#home-gear-one{
 		position: absolute;
@@ -60,13 +64,13 @@
 
 	#home-browser{
 		@include animation-duration(.5s);
-		@include animation-delay(.4s);
+		@include animation-delay(.2s);
 	}
 	#home-shadow{
 		z-index: -999;
     @include animation-name(grow);
     @include animation-duration(.4s);
-    @include animation-delay(.35s);
+    @include animation-delay(.15s);
     @include animation-timing-function(linear);
 	}
 }
