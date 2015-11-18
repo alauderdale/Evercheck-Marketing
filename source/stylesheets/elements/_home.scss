@@ -23,6 +23,9 @@
 		position:absolute;
 		bottom:301px;
 		right:-15px;
+	  @include breakpoint(md) {
+	    right:10px;
+	  }
 		margin-bottom:-301px;
 		
 	}
