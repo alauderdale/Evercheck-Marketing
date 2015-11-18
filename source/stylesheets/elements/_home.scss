@@ -1,12 +1,30 @@
-.hover-lift{
-		&:hover{
-			img{
-				transform:translate3d(0, -5px, 0);
-			}
-		}
+.home-image-container{
+	background-size:50%;
+  background-position:center center;
+  background-repeat:no-repeat;
+	background-image:url(../images/home_background@2x.png);
+	margin-top:-60px;
 	img{
-		transform:translate3d(0, 0, 0);
-		@include transition(all 200ms ease);
 		position: relative;
 	}
+	#home-gears{
+		top: 84px;
+    left: 104px;
+    @include animation-duration(.8s);
+    @include animation-delay(.5s);
+	}
+	#home-browser{
+		@include animation-duration(.8s);
+	}
 }
+
+.home-product-container{
+	#home-phone{
+		position:absolute;
+		bottom:301px;
+		right:-30px;
+		margin-bottom:-301px;
+	}
+}
+
+
