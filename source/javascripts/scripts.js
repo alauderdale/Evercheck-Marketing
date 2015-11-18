@@ -34,7 +34,7 @@ $(document).ready(function(){
     // });
 
 
-    $('.slideinleftonload').viewportChecker({
+    $('.slideinRightonload').viewportChecker({
         classToAdd: 'fadeInRight',
         offset: 350
     });
