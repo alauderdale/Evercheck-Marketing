@@ -32,3 +32,30 @@
   @include animation-duration(10s);
   @include animation-iteration-count(infinite);
 }
+
+
+#monitoring-two{
+	position:absolute;
+	bottom: 319px;
+	left:120px;
+	margin-bottom: -319px;
+	z-index: -999;
+}
+
+
+#manage-two{
+	position:absolute;
+	bottom: 499px;
+	left:-20px;
+	margin-bottom: -499px;
+	z-index: -999;
+}
+
+#manage-three{
+	position:absolute;
+	bottom: 499px;
+	right:-20px;
+	margin-bottom: -499px;
+	z-index: -999;
+	overflow-x:hidden;
+}

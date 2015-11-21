@@ -38,6 +38,16 @@ $(document).ready(function(){
         classToAdd: 'fadeInRight',
         offset: 350
     });
+
+    $('.slideinLeftonload').viewportChecker({
+        classToAdd: 'fadeInLeft',
+        offset: 350
+    });
+
+
+    $('.fadeInOnload').viewportChecker({
+        classToAdd: 'fadeIn'
+    });
     
 
 
