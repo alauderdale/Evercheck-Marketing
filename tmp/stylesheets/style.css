@@ -383,7 +383,11 @@ a {
   a:hover {
     color: #439f78;
     text-decoration: none; }
-  /* line 17, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
+  /* line 16, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
+  a:focus {
+    text-decoration: none;
+    color: #3b8b69; }
+  /* line 21, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
   a.next-up i {
     position: relative;
     -webkit-transition-duration: 0.3s;
@@ -391,14 +395,14 @@ a {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 21, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
+  /* line 25, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
   a.next-up:hover {
     text-decoration: none; }
-    /* line 23, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
+    /* line 27, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
     a.next-up:hover i {
       margin-left: 10px; }
 
-/* line 30, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
+/* line 34, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
 .btn {
   border-radius: 3px;
   font-family: "open_sanssemibold", Helvetica, Arial, sans-serif;
@@ -408,27 +412,27 @@ a {
   -ms-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s; }
-  /* line 35, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
+  /* line 39, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
   .btn.btn-primary {
     background: #54C796;
     border: #54C796; }
-    /* line 38, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
+    /* line 42, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
     .btn.btn-primary:hover {
       background: #4cb387; }
-    /* line 41, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
+    /* line 45, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
     .btn.btn-primary:active {
       background: #54C796;
       color: white;
       box-shadow: none; }
-  /* line 47, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
+  /* line 51, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
   .btn.btn-default {
     border: rgba(84, 199, 150, 0.8) 1px solid;
     color: #54C796; }
-    /* line 50, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
+    /* line 54, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
     .btn.btn-default:hover, .btn.btn-default:focus {
       border: #54c796 1px solid;
       background: #f6fcfa; }
-    /* line 54, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
+    /* line 58, /Users/alexlauderdale/Documents/SITE/source/stylesheets/partials/_links_buttons.scss */
     .btn.btn-default:active {
       color: #54C796;
       box-shadow: none; }

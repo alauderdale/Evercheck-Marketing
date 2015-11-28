@@ -13,6 +13,10 @@ a{
 		color:shade($primary-color,20%);
 		text-decoration:none;
 	}
+	&:focus{
+		text-decoration:none;
+		color:shade($primary-color,30%);
+	}
 	&.next-up{
 		i{
 			position: relative;

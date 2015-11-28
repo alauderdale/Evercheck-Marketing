@@ -6,12 +6,9 @@
       = partial "layouts/header_blog"
       /end menu
       .main.blog-main
-        %section
-          .container
-            .col-sm-2
-            .col-sm-8
-              = yield
-            .col-sm-8
+
+        = yield
+
       /end main content
       = partial "layouts/footer"
       = javascript_include_tag"lib/menu_button.js"
