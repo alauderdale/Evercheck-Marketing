@@ -2,6 +2,8 @@
 "title": "Company"
 ;;;
 
+
+
 %section
 	.container
 		.row
@@ -13,7 +15,8 @@
 				%h2.text-center
 					This Is Our Story
 				%p
-					EverCheck is the result of recognizing a unique set of challenges healthcare organizations face every day and offering a solution that works. CE Broker, Florida’s official healthcare continuing education tracking system and EverCheck’s [parent company], began providing license verification services in 2005. Since then, we’ve grown to XX number of employees who service more than 200+ hospitals nationwide. And we’re just getting started. 
+					Many healthcare organizations face the challenge of having to manually verify license status with the Primary Source. EverCheck is the result of recognizing an opportunity within that challenge, and offering a solution that makes sense for hospitals’ compliance requirements and for their budgets. CE Broker, Florida’s official healthcare continuing education tracking system and EverCheck’s parent company, began providing license verification services in 2005. Since then, we’ve grown to 20+ employees who service more than 200 hospitals nationwide. And we’re just getting started. 
+
 			.col-md-3.col-sm-2
 %section.white-bg
 	.container
@@ -44,25 +47,27 @@
 			.col-md-3.col-sm-2
 			.col-md-6.col-sm-8
 				%h2.text-center
-					Meet the team
+					The Humans Behind the Software 
 				%p
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a.
+					Developing technologies that work better than the rest can be challenging. So we hire the best talent, give them the resources they need to be the best at what they do, and empower them to challenge the status quo in our industry. As a result, EverCheck is a leading provider of license verification software nationwide. 
+				%p
+					We’ve taken it one step further, and have designed a culture around our core values.
 			.col-md-3.col-sm-2
 %section
 	.container
-		-10.times do
+		-data.people.people.each do |p|
 			.row.double-margin-bottom
 				.col-md-2.col-sm-1
 				.col-md-4.col-sm-5.col-md-push-4.col-sm-push-5
-					%img.img-responsive.margin-auto.margin-top.img-circle{:src=>"../images/avatar@2x.jpg", :width=>"200px"}
+					%img.img-responsive.margin-auto.margin-top.img-circle{:src=>"../images/headshots/#{p.image}", :width=>"200px"}
 				.col-md-4.col-sm-5.col-md-pull-4.col-sm-pull-5
 					.double-margin-top
 						%h4.bold-font-name
-							John Doe
+							= p.name
 							%span.light-font-name
-								Founder and CEO
+								= p.title
 						%p.small
-							Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.
+							= p.description
 %section.white-bg
 	.container
 		.row
