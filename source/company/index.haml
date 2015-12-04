@@ -1,5 +1,6 @@
 ;;;
-"title": "Company"
+"title": "Our Story",
+"description": "Learn more about the humans behind the software. "
 ;;;
 
 
@@ -33,19 +34,6 @@
 		.row
 			.col-md-3.col-sm-2
 			.col-md-6.col-sm-8
-				%h4.margin-bottom.text-center
-					Our sustainability promise
-				%blockquote
-					%p
-						“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet"
-					%footer
-						\- Brian Solano, CEO
-			.col-md-3.col-sm-2
-%section
-	.container
-		.row
-			.col-md-3.col-sm-2
-			.col-md-6.col-sm-8
 				%h2.text-center
 					The Humans Behind the Software 
 				%p
@@ -55,6 +43,9 @@
 			.col-md-3.col-sm-2
 %section
 	.container
+		.col-lg-12
+			%h5.text-center.double-margin-bottom
+				Meet Our Team
 		-data.people.people.each do |p|
 			.row.double-margin-bottom
 				.col-md-2.col-sm-1

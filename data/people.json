@@ -1,119 +1,124 @@
 {
 	"people": [
-	  {	"name":"Amanda Morales", 
-	  	"title":"Founder and CEO",
+	  {	"name":"Brian Solano", 
+	  	"title":"CEO",
 	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Amanda@2x.png"
+	  	"image":"Brian.png"
 	  },
 	  {	"name":"Angie Cardona", 
-	  	"title":"Founder and CEO",
+	  	"title":"Director of Client Services",
 	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Angie@2x.png"
-	  },
-	  {	"name":"Andrew Turner", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Andrew@2x.png"
-	  },
-	  {	"name":"Anix Charris", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Anix@2x.png"
-	  },
-	  {	"name":"Bonnie Smith", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Bonnie@2x.png"
-	  },
-	  {	"name":"Brittany Tony", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Brittany@2x.png"
-	  },
-	  {	"name":"Emily King", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Emily@2x.png"
-	  },
-	  {	"name":"Federico Garcia", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Fernando@2x.png"
-	  },
-	  {	"name":"Fernando De Oro", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Federico_2@2x.png"
-	  },
-	  {	"name":"Hana Chandler", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Hana@2x.png"
-	  },
-	  {	"name":"Ignacio Manuel Fontalvo Avilez", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Ignacio@2x.png"
-	  },
-	  {	"name":"Jennifer Hill", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Jennifer@2x.png"
-	  },
-	  {	"name":"Jessica Dunbar", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Jessica@2x.png"
-	  },
-	  {	"name":"Jorge Ramirez", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Jorge@2x.png"
-	  },
-	  {	"name":"Justin Mann", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Justin@2x.png"
-	  },
-	  {	"name":"Karen Hohman", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Karen@2x.png"
+	  	"image":"Angie.png"
 	  },
 	  {	"name":"Kerry Elison", 
-	  	"title":"Founder and CEO",
+	  	"title":"Account Executive",
 	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Kerry@2x.png"
+	  	"image":"Kerry.png"
+	  },
+	  {	"name":"Karen Hohman", 
+	  	"title":"Account Executive",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Karen.png"
+	  },
+	  {	"name":"Brittany Tony", 
+	  	"title":"Account Executive",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Brittany.png"
+	  },
+	  {	"name":"Andrew Turner", 
+	  	"title":"Account Executive",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Andrew.png"
 	  },
 	  {	"name":"Kirsten Mimms", 
-	  	"title":"Founder and CEO",
+	  	"title":"Quality Assurance Manager",
 	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Kirsten@2x.png"
-	  },
-	  {	"name":"Luz Ferreira", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Luz@2x.png"
-	  },
-	  {	"name":"Peter Diaz Sarmiento", 
-	  	"title":"Founder and CEO",
-	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Peter@2x.png"
+	  	"image":"Kirsten.png"
 	  },
 	  {	"name":"Shawn Boland", 
-	  	"title":"Founder and CEO",
+	  	"title":"Client Success Manager",
 	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Shawn@2x.png"
+	  	"image":"Shawn.png"
 	  },
-	  {	"name":"Theresa Lopez", 
-	  	"title":"Founder and CEO",
+	  {	"name":"Jennifer Hill", 
+	  	"title":"Client Success Manager",
 	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Theresa@2x.png"
+	  	"image":"Jennifer.png"
+	  },
+	  {	"name":"Hana Chandler", 
+	  	"title":"Client Success Manager",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Hana.png"
+	  },
+	  {	"name":"Emily King", 
+	  	"title":"Client Success Manager",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Emily.png"
+	  },
+	  {	"name":"Fernando De Oro", 
+	  	"title":"Director of Operations",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Federico_2.png"
+	  },
+	  {	"name":"Anix Charris", 
+	  	"title":"Director of Operations",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Anix.png"
+	  },
+	  {	"name":"Federico Garcia", 
+	  	"title":"Director of Operations",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Fernando.png"
+	  },
+	  {	"name":"Jorge Ramirez", 
+	  	"title":"Software Developer",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Jorge.png"
+	  },
+	  {	"name":"Ignacio Manuel Fontalvo Avilez", 
+	  	"title":"Software Developer",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Ignacio.png"
+	  },
+	  {	"name":"Peter Diaz Sarmiento", 
+	  	"title":"Software Developer",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Peter.png"
+	  },
+	  {	"name":"Luz Ferreira", 
+	  	"title":"Software Developer",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Luz.png"
 	  },
 	  {	"name":"Xavier Sarmiento", 
-	  	"title":"Founder and CEO",
+	  	"title":"Software Developer",
 	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
-	  	"image":"Xavier@2x.png"
+	  	"image":"Xavier.png"
+	  },
+	  {	"name":"Justin Mann", 
+	  	"title":"Software Developer",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Justin.png"
+	  },
+	  {	"name":"Jessica Dunbar", 
+	  	"title":"EverCheck Marketing Manager",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Jessica.png"
+	  },
+	  {	"name":"Bonnie Cobb", 
+	  	"title":"HR Coordinator",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Bonnie.png"
+	  },
+	  {	"name":"Amanda Morales", 
+	  	"title":"Amanda Morales",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Amanda.png"
+	  },
+	  {	"name":"Theresa Lopez", 
+	  	"title":"Designer",
+	  	"description":"Automate your verification process without losing the human element. Share notes, documents, create task workflows, and more.",
+	  	"image":"Theresa.png"
 	  }
 	]
 }
