@@ -48,17 +48,16 @@
 				Meet Our Team
 		-data.people.people.each do |p|
 			.row.double-margin-bottom
-				.col-md-2.col-sm-1
-				.col-md-4.col-sm-5.col-md-push-4.col-sm-push-5
-					%img.img-responsive.margin-auto.margin-top.img-circle{:src=>"../images/headshots/#{p.image}", :width=>"200px"}
-				.col-md-4.col-sm-5.col-md-pull-4.col-sm-pull-5
-					.double-margin-top
-						%h4.bold-font-name
+				.col-md-3.col-sm-2
+				.col-md-3.col-sm-4
+					%img.img-responsive.margin-auto.margin-top.img-circle{:src=>"../images/headshots/#{p.image}", :width=>"170px"}
+				.col-md-4.col-sm-5
+					.person-title.text-center-sm
+						%h3.bold-font-name.quarter-margin-bottom
 							= p.name
+						%h4
 							%span.light-font-name
 								= p.title
-						%p.small
-							= p.description
 %section.white-bg
 	.container
 		.row

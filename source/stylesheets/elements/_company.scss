@@ -1,0 +1,6 @@
+.person-title{
+	margin-top:$baseline*3;
+	 @include breakpoint(sm) {
+    margin-top:$baseline;
+  }
+}
