@@ -720,21 +720,24 @@ table {
 #company_tabs {
   text-align: center; }
   /* line 3, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
+  #company_tabs h5, #company_tabs p {
+    color: #043761; }
+  /* line 6, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
   #company_tabs .tab-table {
     display: table;
     margin: 0 auto;
     margin-bottom: 28px; }
-  /* line 8, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
+  /* line 11, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
   #company_tabs ul.nav-tabs {
     text-align: center; }
-    /* line 10, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
+    /* line 13, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
     #company_tabs ul.nav-tabs li {
       display: inline;
       text-align: center; }
-      /* line 13, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
+      /* line 16, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
       #company_tabs ul.nav-tabs li a {
         border: none; }
-        /* line 15, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
+        /* line 18, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
         #company_tabs ul.nav-tabs li a img {
           -webkit-transition-duration: 0.3s;
           -moz-transition-duration: 0.3s;
@@ -743,21 +746,21 @@ table {
           transition-duration: 0.3s;
           opacity: .3; }
           @media (max-width: 767px) {
-            /* line 15, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
+            /* line 18, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
             #company_tabs ul.nav-tabs li a img {
               width: 20px; } }
-      /* line 24, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
+      /* line 27, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
       #company_tabs ul.nav-tabs li:hover a {
         background: transparent; }
-        /* line 26, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
+        /* line 29, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
         #company_tabs ul.nav-tabs li:hover a img {
           opacity: 1; }
-      /* line 32, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
+      /* line 35, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
       #company_tabs ul.nav-tabs li.active a {
         background: transparent;
         border: none;
         box-shadow: inset 0 -1px #54C796; }
-        /* line 36, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
+        /* line 39, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_slider.scss */
         #company_tabs ul.nav-tabs li.active a img {
           opacity: 1; }
 
@@ -1215,6 +1218,11 @@ label {
     /* line 79, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/elements/_home.scss */
     .home-product-container #home-phone {
       right: 10px; } }
+
+/* line 8, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/elements/_company.scss */
+.person-title {
+  margin-top: 28px;
+  margin-bottom: 56px; }
 
 /* line 2, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/elements/_blog.scss */
 .blog-main img {
