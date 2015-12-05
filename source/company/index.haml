@@ -41,23 +41,37 @@
 				%p
 					We’ve taken it one step further, and have designed a culture around our core values.
 			.col-md-3.col-sm-2
-%section
+%section.padding-top
 	.container
 		.col-lg-12
 			%h5.text-center.double-margin-bottom
 				Meet Our Team
-		-data.people.people.each do |p|
-			.row.double-margin-bottom
-				.col-md-3.col-sm-2
-				.col-md-3.col-sm-4
-					%img.img-responsive.margin-auto.margin-top.img-circle{:src=>"../images/headshots/#{p.image}", :width=>"170px"}
-				.col-md-4.col-sm-5
-					.person-title.text-center-sm
-						%h3.bold-font-name.quarter-margin-bottom
-							= p.name
-						%h4
-							%span.light-font-name
-								= p.title
+		/ -data.people.people.each do |p|
+		/ 	.row.double-margin-bottom
+		/ 		.col-md-3.col-sm-2
+		/ 		.col-md-3.col-sm-4
+		/ 			%img.img-responsive.margin-auto.margin-top.img-circle{:src=>"../images/headshots/#{p.image}", :width=>"170px"}
+		/ 		.col-md-4.col-sm-5
+		/ 			.person-title.text-center-sm
+		/ 				%h4.bold-font-name.quarter-margin-bottom
+		/ 					= p.name
+		/ 				%h4
+		/ 					%span.light-font-name
+		/ 						= p.title
+		.row.double-margin-bottom
+			.col-md-2
+			.col-md-8
+				.row
+					-data.people.people.each do |p|
+						.col-md-6
+							%img.img-responsive.margin-auto.margin-top.img-circle{:src=>"../images/headshots/#{p.image}", :width=>"170px"}
+							.person-title.text-center
+								%h4.bold-font-name.quarter-margin-bottom
+									= p.name
+								%h4
+									%span.light-font-name
+										= p.title
+			.col-md-2
 %section.white-bg
 	.container
 		.row

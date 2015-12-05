@@ -1,5 +1,8 @@
 #company_tabs{
 	text-align:center;
+	h5,p{
+		color:$secondary-color;
+	}
 	.tab-table{
 		display: table;
 		margin:0 auto;

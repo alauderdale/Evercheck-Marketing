@@ -1,6 +1,11 @@
+// .person-title{
+// 	margin-top:$baseline*3;
+// 	 @include breakpoint(sm) {
+//     margin-top:$baseline;
+//   }
+// }
+
 .person-title{
-	margin-top:$baseline*3;
-	 @include breakpoint(sm) {
-    margin-top:$baseline;
-  }
+	margin-top:$baseline;
+	margin-bottom:$baseline*2;
 }
