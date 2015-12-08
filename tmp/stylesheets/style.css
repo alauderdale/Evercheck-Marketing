@@ -357,14 +357,22 @@ blockquote {
   blockquote footer {
     color: #54C796; }
 
-/* line 371, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_typography.scss */
+/* line 366, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_typography.scss */
+.display-text p, .display-text h1, .display-text h2, .display-text h3, .display-text h4, .display-text h5, .display-text h6 {
+  margin-bottom: 14px;
+  margin-top: 14px; }
+/* line 370, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_typography.scss */
+.display-text p, .display-text li {
+  margin-bottom: 28px; }
+
+/* line 383, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_typography.scss */
 ul {
   margin-left: 24px; }
-  /* line 373, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_typography.scss */
+  /* line 385, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_typography.scss */
   ul li {
     line-height: 3.3rem; }
   @media (max-width: 992px) {
-    /* line 377, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_typography.scss */
+    /* line 389, /Users/alexlauderdale/Documents/Evercheck-Marketing/source/stylesheets/partials/_typography.scss */
     ul li {
       font-size: .8em;
       line-height: 2.3rem; } }

@@ -3296,12 +3296,12 @@ $(document).ready(function(){
 
     $('.slideinRightonload').viewportChecker({
         classToAdd: 'fadeInRight',
-        offset: 350
+        offset: 50
     });
 
     $('.slideinLeftonload').viewportChecker({
         classToAdd: 'fadeInLeft',
-        offset: 350
+        offset: 50
     });
 
 
